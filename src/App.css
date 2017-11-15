@@ -1,5 +1,7 @@
 table {
   width: 100%;
+  max-width:800px;
+  margin: auto;
   border: 1px solid #f5f5f5;
   border-collapse: collapse;
 }
@@ -9,6 +11,18 @@ td,th {
   text-align: center;
   padding: 5px 10px;
 }
+
+.controls {
+  padding: 20px;
+  text-align: center;
+}
+
+.controls select {
+  margin: 0 10px;
+  font-size:16px;
+}
+
+
 
 .home-win .result.home {
   color: green;
@@ -27,7 +41,11 @@ td,th {
 }
 .result {
   padding: 5px;
+  width:10%;
   font-weight: bold;
+}
+.team {
+  width:40%;
 }
 .team.home {
   text-align: right;
